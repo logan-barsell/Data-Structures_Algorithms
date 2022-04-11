@@ -17,3 +17,53 @@ function reverseInt(n) {
 reverseInt(45);
 
 module.exports = reverseInt;
+
+
+
+
+
+
+// function reverseInt(n) {
+//   let reversed = n.toString().split('').reverse().join('');
+  
+//   return parseInt(reversed) * Math.sign(n);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

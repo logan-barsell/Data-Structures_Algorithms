@@ -27,3 +27,69 @@ function fizzBuzz(n) {
 }
 
 module.exports = fizzBuzz;
+
+
+
+
+
+
+// function fizzbuzz(n) {
+//   for(i = 1; i <= n; i++) {
+//     let by3 = i % 3 === 0;
+//     let by5 = i % 5 === 0
+//     if(by3 && by5) {
+//       console.log('fizzbuzz');
+//     } else if (by3) {
+//       console.log('fizz');
+//     } else if (by5) {
+//       console.log('buzz');
+//     } else {
+//       console.log(i);
+//     }
+//   }
+// }
+
+
+
+
+
+
+function fizzbuzz(n) {
+  for(i = 1; i <= n; i++) {
+    if(i % 3 === 0 && i % 5 === 0) {
+      console.log('fizzbuzz');
+    } else if(i % 3 === 0) {
+      console.log('fizz');
+    } else if(i % 5 === 0) {
+      console.log('buzz');
+    } else {
+      console.log(i);
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

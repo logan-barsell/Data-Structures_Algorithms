@@ -34,3 +34,32 @@ class Events {
 }
 
 module.exports = Events;
+
+
+
+
+// class Events {
+//   constructor(){
+//     this.events = {};
+//   }
+
+//   on(event, callback) {
+//     this.events[event] ?
+//      this.events[event].push(callback) 
+//      : this.events[event] = [callback];
+//   }
+
+//   trigger(event) {
+//     if(this.events[event]) {
+//       for( let cb of this.events[event]) {
+//         cb();
+//       }
+//     }
+//   }
+
+//   off(event) {
+//     if(this.events[event]) {
+//       delete this.events[event];
+//     }
+//   }
+// }

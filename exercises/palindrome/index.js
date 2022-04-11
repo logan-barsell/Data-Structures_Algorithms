@@ -23,3 +23,34 @@ module.exports = palindrome;
 
 //   return str === reversed;
 // }
+
+
+
+function palindrome(str) {
+  const reversedStr = str.split('').reduce((reversed, char) => {
+    return char + reversed
+  }, '');
+
+  return str === reversedStr;
+}
+
+
+
+function palindrome(str) {
+  let reversed = str.split('').reverse().join('');
+  return str === reversed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

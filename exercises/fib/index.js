@@ -36,7 +36,7 @@ module.exports = fib;
 
 // function fib(n) {
 //   const series = [0, 1];
-//   for(i = 0; i <= n; i++ ) {
+//   for(i = 0; i < n - 1; i++ ) {
 //     let next = series[i] + series[i + 1];
 //     series.push(next);
 //   }
@@ -52,3 +52,34 @@ module.exports = fib;
 //   }
 //   return result[n];
 // }
+
+
+
+
+
+
+function fib(n) {
+  const series = [0, 1];
+  for(let i = 0; i < n - 1; i++) {
+    series.push(series[i] + series[i+1]);
+  }
+  return series[n];
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

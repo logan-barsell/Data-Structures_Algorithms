@@ -29,3 +29,38 @@ module.exports = reverse;
 //   }
 //   return reversed;
 // }
+
+
+
+
+
+// function reverseStr(str) {
+//   let reversed = '';
+//   for(char of str) {
+//     reversed = char + reversed;
+//   }
+//   return reversed;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

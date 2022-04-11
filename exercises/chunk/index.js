@@ -27,8 +27,19 @@ module.exports = chunk;
 //     if(!last || last.length === size) {
 //       chunked.push([el]);
 //     } else {
-//       last.push(el)
+//       last.push(el);
 //     }
 //   }
 //   return chunked;
 // }
+
+
+function chunk(arr, size) {
+  const chunked = [];
+  let index = 0;
+  while(index < arr.length) {
+    chunked.push(arr.slice(index, index + size));
+    index += size;
+  }
+  return chunked;
+}
